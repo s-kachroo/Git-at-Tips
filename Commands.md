@@ -1,8 +1,3 @@
-# Git-at-Tips
-
-This repository is having the basic commands related to Git which a individual needs to know.
-
-
 ## How to use Git?
 
 For Windows -> Download Git Bash ( https://git-scm.com/download/win )
