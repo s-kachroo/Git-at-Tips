@@ -56,7 +56,7 @@ For Linux   -> sudo apt-get install git
   
 # Cloning a git repository
 
-   **git clone URL_of_repo_which_you_want_to_clone **
+   **git clone URL_of_repo_which_you_want_to_clone** 
    
    Above command will clone/download the repository's code to your local machine in which you will make changes.
    
@@ -81,3 +81,19 @@ For Linux   -> sudo apt-get install git
    **git push origin --delete Branch_Name**
    
    Above command will delete the branch in remote/github repository.
+
+# Merging branch into another branch
+
+   **git merge Branch_Name**
+   
+   Above command will merge your New Branch into the branch on which you are currently present.
+   
+# Fetch - Pull
+
+   **git fetch**
+   
+   Above will download any changes from the remote branch, updating your repo data, but leaving your local branch unchanged.
+   
+   **git pull**
+   
+   Above command will perform a fetch and additionally merge the changes into your local branch
