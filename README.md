@@ -56,17 +56,17 @@ For Linux   -> sudo apt-get install git
   
 # Cloning a git repository
 
-   **git clone <URL of the repo which you want to clone> **
+   **git clone URL_of_repo_which_you_want_to_clone **
    
    Above command will clone/download the repository's code to your local machine in which you will make changes.
    
 # Branching in Git Repository
 
-   **git checkout -b Branch Name**
+   **git checkout -b Branch_Name**
    
    Above command creates a new branch and switches to it.
    
-   **git checkout Branch Name**
+   **git checkout Branch_Name**
    
    Above command will switch your branch to New Branch.
    
@@ -74,10 +74,10 @@ For Linux   -> sudo apt-get install git
    
    Above command shows all the branches present in the repository.
    
-   **git branch -d Branch Name**
+   **git branch -d Branch_Name**
    
    Above command will delete the branch in local repository.
    
-   **git push origin --delete Branch Name**
+   **git push origin --delete Branch_Name**
    
    Above command will delete the branch in remote/github repository.
