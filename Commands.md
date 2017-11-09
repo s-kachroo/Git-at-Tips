@@ -3,7 +3,7 @@
 This repository is having the basic commands related to Git which a individual needs to know.
 
 
-# How to use Git?
+## How to use Git?
 
 For Windows -> Download Git Bash ( https://git-scm.com/download/win )
 
@@ -11,7 +11,7 @@ For Mac     -> brew install git
 
 For Linux   -> sudo apt-get install git
 
-# Basic Commands on Git
+## Basic Setup on Git
 
 1. **git --version**
    
@@ -24,13 +24,13 @@ For Linux   -> sudo apt-get install git
    Above commands let other people who might be working on projects with you know who you are on your computer.
    
 
-# Initialising a folder on a machine as git repository
+## Initialising a folder on a machine as git repository
 
 **git init**
 
   Above command helps you to initialise a git repository.
 
-# Add - Clone - Push
+## Add - Clone - Push
 
   **git add .**
   
@@ -44,7 +44,7 @@ For Linux   -> sudo apt-get install git
   
   Above command will push your modified code to a remote/github repository.
   
-# Keeping track of added and commited files in repo
+## Keeping track of file changes in repository
 
   **git status**
   
@@ -54,13 +54,25 @@ For Linux   -> sudo apt-get install git
   
   Above Command will tell you all the commits regarding the repository.
   
-# Cloning a git repository
+  **git diff**
+  
+  Above command shows file differences not yet staged.
+
+  **git diff --base filename**
+   
+   Above command will view the changes against the base file.
+   
+  **git diff sourcebranch targetbranch**
+   
+   Above command will view changes in source branch against a target.
+  
+## Cloning a git repository
 
    **git clone URL_of_repo_which_you_want_to_clone** 
    
    Above command will clone/download the repository's code to your local machine in which you will make changes.
    
-# Branching in Git Repository
+## Branching in Git Repository
 
    **git checkout -b Branch_Name**
    
@@ -82,13 +94,13 @@ For Linux   -> sudo apt-get install git
    
    Above command will delete the branch in remote/github repository.
 
-# Merging branch into another branch
+## Merging branch into another branch
 
    **git merge Branch_Name**
    
    Above command will merge your New Branch into the branch on which you are currently present.
    
-# Fetch - Pull
+## Fetch - Pull - Stash
 
    **git fetch**
    
@@ -97,3 +109,7 @@ For Linux   -> sudo apt-get install git
    **git pull**
    
    Above command will perform a fetch and additionally merge the changes into your local branch
+
+   **git stash**
+   
+   Above command will stash the changes in a dirty working repository away to the previous version.
