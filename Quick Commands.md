@@ -21,3 +21,21 @@
     **git commit -m "Descriptive Message"**
     
     **git push origin Branch_Name**
+
+## Other basic commands
+
+    **git status**
+
+    **git log**
+
+    **git checkout -b Branch_Name**
+      
+    **git checkout Branch_Name**
+
+    **git branch**
+    
+    **git pull**
+    
+    **git merge Branch_Name**
+    
+    
