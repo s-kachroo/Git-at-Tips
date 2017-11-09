@@ -2,7 +2,7 @@
 
 **Repository**
 
-A basic folder or a collection of files that represents one project. The name of this repository is Git-Guide. When you clone, you clone an entire repository and every repository is identified by a unique URL.
+A basic folder or a collection of files that represents one project. The name of this repository is Git-at-Tips. When you clone, you clone an entire repository and every repository is identified by a unique URL.
 
 **Local Repository** 
 
@@ -14,11 +14,11 @@ This is the respository hosted on github (or any other VCS) to which your local 
 
 **Fork** 
 
-This is how you make a copy of a project owned by someone else. A person or organisation. Apart from the owner of the repository, no one is allowed to make direct changes to the project. So fork is used to make a copy of the project that is owned by you.
+This is how you make a copy of a project owned by someone else. A person or organisation. Apart from the owner of the repository, no one is allowed to make direct changes to the project. 
 
 **Clone** 
 
-You got the project in your account, now what? A clone is just that, a copy. It does not care about ownership. It is aimed to bring the copy of the project hosted on github or any other VCS system in your machine. This is where you will make the changes and later update your remote project
+A clone is just that, a copy. It is aimed to bring the copy of the project hosted on github or any other VCS system in your machine. This is where you will make the changes and later update your remote project.
 
 **Commit** 
 
@@ -26,11 +26,11 @@ This is a checkpoint in your project history. All the commits are recorded in gi
 
 **Push**
 
-This is how you send the changes made in your local repository to your remote. All your changes remain unsynced until you have pushed them and this is necessary step to keep the changes parallel. Only the files you commit(as in the previous definition) are pushed and rest of the changes remain local to your project.
+This is how you send the changes made in your local repository to your remote repository. All your changes remain unsynced until you have pushed them and this is necessary step to keep the changes parallel. Only the files you commit(as in the previous definition) are pushed and rest of the changes remain local to your project.
 
 **Fetch**
 
-This is in very simple terms means to download any updates and changes from a remote repository. This does not mean that you have included the changes in your project. Just download.
+This is in very simple terms means to download any updates and changes from a remote repository. This does not mean that you have included the changes in your project.
 
 **Merge** 
 
@@ -40,6 +40,6 @@ This means to merge or combine updates fetched from remote repository with your 
 
 This means to fetch any updates that may have occured in a remote branch in your local repository and merge them. This is basically a fetch followed by a merge.
 
-**Pull Request (PR)**
+**Pull Request**
 
-Pull Request or PR as it is generally known, is a method to contribute to open development projects by including bug fixes or adding new features. Its a way of contributing by asking the owner of project to include changes made in the external/forked repository.
+Pull Request or PR as it is generally known, is a method to contribute to open development projects by including bug fixes or adding new features.
