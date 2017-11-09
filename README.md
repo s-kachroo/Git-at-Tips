@@ -2,6 +2,7 @@
 
 This repository is having the basic commands related to Git which a individual needs to know.
 
+
 # How to use Git?
 
 For Windows -> Download Git Bash ( https://git-scm.com/download/win )
@@ -43,7 +44,7 @@ For Linux   -> sudo apt-get install git
   
   Above command will push your modified code to a remote/github repository.
   
-# Keeping track of added and commited files in a git repository
+# Keeping track of added and commited files in repo
 
   **git status**
   
@@ -52,3 +53,31 @@ For Linux   -> sudo apt-get install git
   **git log**
   
   Above Command will tell you all the commits regarding the repository.
+  
+# Cloning a git repository
+
+   **git clone <URL of the repo which you want to clone> **
+   
+   Above command will clone/download the repository's code to your local machine in which you will make changes.
+   
+# Branching in Git Repository
+
+   **git checkout -b Branch Name**
+   
+   Above command creates a new branch and switches to it.
+   
+   **git checkout Branch Name**
+   
+   Above command will switch your branch to New Branch.
+   
+   **git branch**
+   
+   Above command shows all the branches present in the repository.
+   
+   **git branch -d Branch Name**
+   
+   Above command will delete the branch in local repository.
+   
+   **git push origin --delete Branch Name**
+   
+   Above command will delete the branch in remote/github repository.
